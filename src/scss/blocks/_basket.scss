@@ -1,0 +1,136 @@
+.nav {
+  display: flex;
+  text-align: center;
+}
+.wrapper {
+  display: flex;
+  margin-left: 350px;
+}
+.logo {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.01em;
+  margin-top: 30px;
+  margin-right: 18px;
+}
+.text {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #b6b6b6;
+}
+.title {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  margin-top: 35px;
+  margin-right: 17px;
+  letter-spacing: 0.01em;
+
+  color: #000000;
+}
+.m {
+  display: inline;
+  margin-right: 11px;
+}
+.inner {
+  display: flex;
+  margin-left: auto;
+  margin-top: 98px;
+  margin-right: 200px;
+  margin-bottom: 50px;
+}
+.pizzas {
+  display: flex;
+  &__text {
+    position: absolute;
+    width: 179px;
+    height: 27px;
+    left: 351px;
+    top: 777px;
+
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+
+    letter-spacing: 0.01em;
+
+    color: #000000;
+  }
+  &__title {
+    position: absolute;
+    width: 215px;
+    height: 27px;
+    left: 956px;
+    top: 777px;
+
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+
+    letter-spacing: 0.01em;
+
+    color: #000000;
+  }
+}
+.btn {
+  margin-bottom: 147px;
+}
+.btn1 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 211px;
+  height: 55px;
+  left: 351px;
+  top: 844px;
+
+  background: #ffffff;
+  border: 1px solid #d3d3d3;
+  border-radius: 30px;
+
+  &__span {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #cacaca;
+  }
+}
+.btn2 {
+  position: absolute;
+  width: 211px;
+  height: 55px;
+  left: 960px;
+  top: 844px;
+
+  background: #fe5f1e;
+  border-radius: 30px;
+  &__span {
+    font-family: "Proxima Nova";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #ffffff;
+  }
+}
